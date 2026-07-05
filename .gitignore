@@ -1,0 +1,21 @@
+# Terraform state (contains plaintext secrets: RDS password, Secrets Manager values, etc.)
+*.tfstate
+*.tfstate.*
+
+# Terraform working directories / provider binaries
+# (.terraform.lock.hcl is intentionally NOT ignored - it should be committed)
+**/.terraform/
+
+# Saved plan files (may contain sensitive resource attribute values)
+*.tfplan
+
+# Local variable overrides (may contain IPs, key names, etc.)
+terraform.tfvars
+*.auto.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
+
+# OS files
+.DS_Store

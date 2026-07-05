@@ -1,0 +1,6 @@
+# Copy this file to terraform.tfvars and fill in your own values.
+# Phase 3 must already be applied (this config reads its state via
+# terraform_remote_state) before you apply Phase 4.
+
+allowed_ssh_cidr = "YOUR_PUBLIC_IP/32" # e.g. curl ifconfig.me
+key_name         = "vockey"            # default key pair name in AWS Academy labs
