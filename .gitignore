@@ -19,3 +19,7 @@ crash.*.log
 
 # OS files
 .DS_Store
+
+# Chinese-language docs kept locally for reference, not published to GitHub
+terraform/DEPLOYMENT.md
+terraform/PRESENTATION.md
